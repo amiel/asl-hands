@@ -1,5 +1,11 @@
 {
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm rebuild @tensorflow/tfjs-node --build-addon-from-source"
+  },
   "dependencies": {
+    "@mediapipe/hands": "^0.4.1646424915",
     "@tensorflow-models/hand-pose-detection": "^2.0.0",
     "@tensorflow/tfjs-node": "^3.21.1"
   }
