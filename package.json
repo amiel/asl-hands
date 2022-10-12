@@ -5,8 +5,9 @@
     "build": "npm rebuild @tensorflow/tfjs-node --build-addon-from-source"
   },
   "dependencies": {
-    "@mediapipe/hands": "^0.4.1646424915",
+    "@mediapipe/hands": "^0.4.0",
     "@tensorflow-models/hand-pose-detection": "^2.0.0",
-    "@tensorflow/tfjs-node": "^3.21.1"
+    "@tensorflow/tfjs-core": "~3.21.0",
+    "http-server": "^14.1.1"
   }
 }

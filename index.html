@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <!-- Require the peer dependencies of hand-pose-detection. -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+
+    <!-- You must explicitly require a TF.js backend if you're not using the TF.js union bundle. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <video id="video"></video>
+
+    <p>
+      <input type="text" id="wrist">
+      <input type="text" id="thumb">
+      <input type="text" id="index">
+      <input type="text" id="middle">
+      <input type="text" id="ring">
+      <input type="text" id="pinky">
+    </p>
+    <p>
+      <input type="text" id="map">
+      <input type="text" id="result">
+    </p>
+  </body>
+</html>
