@@ -1,2 +1,8 @@
 
-https://www.npmjs.com/package/camera
+## Setup
+
+```
+yarn
+yarn run build
+npx http-server
+```
