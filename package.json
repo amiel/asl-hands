@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow/tfjs-node": "^3.21.1"
+  }
+}
